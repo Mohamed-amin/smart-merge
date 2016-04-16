@@ -1,7 +1,7 @@
 # Merge 2 objects
-It is a trial to fuse 2 objects in a smarter way than `Object.assaign()`.
+Deep merge two objects properties.
 
-# Tests
-Not yet :D 
+# install
+`npm install smart-merge` 
 
 
