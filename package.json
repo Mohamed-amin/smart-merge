@@ -1,0 +1,24 @@
+{
+  "name": "smart-merge",
+  "version": "0.1.0",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.1",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-jshint-preprocessor": "0.0.6",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs": "^2.1.7",
+    "sinon": "^1.17.3"
+  },
+  "scripts": {
+    "lint": "jshint src test",
+    "test": "karma start"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "lodash": "^4.9.0"
+  }
+}
