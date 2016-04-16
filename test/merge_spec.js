@@ -1,6 +1,5 @@
-var merge = require('index.js');
-
-describe("hello", function(){
+var merge = require('./../src/merge.js');
+describe("Merge", function(){
 	it('Merge object 1 properties to Object 2', function(){
 		var baseStyles = {
 		  header:{
@@ -17,7 +16,7 @@ describe("hello", function(){
 		    left : 40, 
 		  }
 		};
-
-		expect(merge({}, baseStyles, rtlStyles)).toEqual();
+		console.warn(Object.assign());
+		expect(merge({}, baseStyles, rtlStyles)).toEqual('a');
 	});
 });
