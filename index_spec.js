@@ -1,4 +1,4 @@
-var merge = require('./../src/merge.js');
+var merge = require('./index');
 describe("Merge", function(){
 	it('Merge object 1 properties to Object 2', function(){
 		var baseStyles = {
@@ -17,6 +17,6 @@ describe("Merge", function(){
 		  }
 		};
 		console.warn(Object.assign());
-		expect(merge({}, baseStyles, rtlStyles)).toEqual('a');
+		expect(merge({}, baseStyles, rtlStyles)).toEqual({});
 	});
 });
