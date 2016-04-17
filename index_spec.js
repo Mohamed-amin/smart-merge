@@ -36,6 +36,14 @@ if (typeof Object.assign != 'function') {
 }
 
 describe("Merge", function(){
+	var a, b, c, d, e;
+	beforeEach(function(){
+		a = {a : 1};
+		b = {b : 1};
+		c = {c : 1};
+		d = {d : 1};
+		e = {e : 1};
+	})
 	it('Merge object 1 properties to Object 2', function(){
 		var baseStyles = {
 		    header: {
@@ -53,6 +61,15 @@ describe("Merge", function(){
 		};
 		expect(merge({}, baseStyles, rtlStyles)).toEqual({ header:{ left: 40, position: 'absolute' }, footer:{ right: 10 } });
 	});
+
+	it('Should accept 1 Parameter', function(){
+		// need to be covered
+	});
+
+	it('Should accept any number of Parameters', function(){
+		// need to be covered
+	})
+
 });
 
 
