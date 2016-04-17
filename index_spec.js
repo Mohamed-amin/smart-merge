@@ -10,6 +10,7 @@ var merge = require('./index');
  * Polyfill source:
  * https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
  */
+
 if (typeof Object.assign != 'function') {
   (function () {
     Object.assign = function (target) {
@@ -37,21 +38,26 @@ if (typeof Object.assign != 'function') {
 describe("Merge", function(){
 	it('Merge object 1 properties to Object 2', function(){
 		var baseStyles = {
-		  header:{
-		    left : 10, 
-		    position: 'absolute',
-		  },
-		  footer:{
-		    right: 10
-		  }
+		    header: {
+		        left: 10,
+		        position: 'absolute',
+		    },
+		    footer: {
+		        right: 10
+		    }
 		};
-
 		var rtlStyles = {
-		  header:{
-		    left : 40, 
-		  }
+		    header: {
+		        left: 40,
+		    }
 		};
-		console.warn(Object.assign());
-		expect(merge({}, baseStyles, rtlStyles)).toEqual({});
+		expect(merge({}, baseStyles, rtlStyles)).toEqual({ header:{ left: 40, position: 'absolute' }, footer:{ right: 10 } });
 	});
 });
+
+
+
+
+
+
+
