@@ -1,6 +1,21 @@
 {
   "name": "smart-merge",
-  "version": "0.1.2",
+  "version": "0.1.3",
+  "homepage": "https://github.com/unclechu/node-deep-extend",
+   "keywords": [
+    "smart-merge",
+    "deep",
+    "smart",
+    "clone",
+    "merge",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Mohamed-amin/deep-merge.git"
+  },
+  "author": "Mohamed Amin <mohamed.amin.088@gmail.com>",
+  "bugs": "https://github.com/Mohamed-amin/deep-merge/issues",
   "devDependencies": {
     "browserify": "^13.0.0",
     "jasmine-core": "^2.4.1",
@@ -16,5 +31,5 @@
   "scripts": {
     "lint": "jshint src test",
     "test": "karma start"
-  }
+  },
 }
