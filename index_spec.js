@@ -72,10 +72,3 @@ describe("Merge", function(){
 	});
 
 });
-
-
-
-
-
-
-

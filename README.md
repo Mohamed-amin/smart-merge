@@ -1,10 +1,44 @@
 # Merge 2 objects
-Deep merge javascript objects properties.
+Deep merge javascript objects.
+
+[![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/<package>)
 
 # install
-`npm install smart-merge` 
+`npm install smart-merge`
+ 
+# Usage
+```js
+	var baseStyles = {
+	    header: {
+	        left: 10,
+	        position: 'absolute',
+	    },
+	    footer: {
+	        right: 10
+	    }
+	};
+	var rtlStyles = {
+	    header: {
+	        left: 40,
+	    }
+	};
+```
 
-# Dependencies
-there is Polyfill for `Object.assign()` to run the tests with Karma.
-However to use it within your developing stack I figure that you have a transpilar or fallback for es6/es5 features, So I wouldn't like to polute  with more code or unneeded dependencies for such a small and quick utility
+```js
+	var merge = require('smart-merge');
+	merge(baseStyles, rtlStyles);
+```
+### Result
+```js
+{ 
+    header:{ 
+        left: 40, 
+        position: 'absolute' 
+    }, 
+    footer:{ 
+        right: 10 
+    } 
+}
+```
+
 
