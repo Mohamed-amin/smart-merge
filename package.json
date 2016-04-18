@@ -1,6 +1,6 @@
 {
   "name": "smart-merge",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/unclechu/node-deep-extend",
    "keywords": [
     "smart-merge",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Mohamed-amin/deep-merge.git"
+    "url": "git://github.com/Mohamed-amin/smart-merge.git"
   },
   "author": "Mohamed Amin <mohamed.amin.088@gmail.com>",
   "bugs": "https://github.com/Mohamed-amin/deep-merge/issues",
