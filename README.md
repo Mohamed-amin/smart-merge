@@ -1,11 +1,11 @@
-# Merge 2 objects
-Deep merge javascript objects.
+# Merge multiple Javascript objects
+Deep merge any number of javascript objects.
 
-[![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/<package>)
+[![NPM](https://nodei.co/npm/smart-merge.png)](https://npmjs.org/package/smart-merge)
 
 # install
 `npm install smart-merge`
- 
+
 # Usage
 ```js
 	var baseStyles = {
@@ -28,7 +28,7 @@ Deep merge javascript objects.
 	var merge = require('smart-merge');
 	merge(baseStyles, rtlStyles);
 ```
-### Result
+#### Result
 ```js
 { 
     header:{ 
@@ -40,5 +40,8 @@ Deep merge javascript objects.
     } 
 }
 ```
+
+# Tests
+Check the tests for more examples...
 
 
