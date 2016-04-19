@@ -1,6 +1,6 @@
 {
   "name": "smart-merge",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "homepage": "https://github.com/unclechu/node-deep-extend",
    "keywords": [
     "smart-merge",
@@ -15,7 +15,7 @@
     "url": "git://github.com/Mohamed-amin/smart-merge.git"
   },
   "author": "Mohamed Amin <mohamed.amin.088@gmail.com>",
-  "bugs": "https://github.com/Mohamed-amin/deep-merge/issues",
+  "bugs": "https://github.com/Mohamed-amin/smart-merge/issues",
   "devDependencies": {
     "browserify": "^13.0.0",
     "jasmine-core": "^2.4.1",
