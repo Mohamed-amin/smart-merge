@@ -42,6 +42,9 @@ Deep merge any number of javascript objects.
 ```
 
 # Tests
+```bash
+$ npm test
+```
 Check the tests for more examples...
 
 
